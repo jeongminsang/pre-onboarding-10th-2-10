@@ -13,7 +13,7 @@ const Suggestions = ({ suggestions, handleSuggestionClick }) => {
           key={suggestion.id}
           onClick={() => handleSuggestionClick(suggestion)}
         >
-          {suggestion.name}
+          <button>{suggestion.name}</button>
         </li>
       ))}
     </ul>
